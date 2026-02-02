@@ -1,0 +1,22 @@
+# ============ OBLIGATORIO ============
+# 1. SECRETOS (NUNCA COMMIT)
+.env
+.env.local
+.secret
+*.key
+*.pem
+
+# 2. DEPENDENCIAS (se reinstalan)
+node_modules/
+vendor/
+__pycache__/
+
+# 3. ARCHIVOS DEL SISTEMA
+.DS_Store          # macOS
+Thumbs.db          # Windows
+desktop.ini
+
+# 4. LOGS Y TEMPORALES
+*.log
+*.tmp
+*.cache
